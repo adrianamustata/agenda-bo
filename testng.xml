@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+  <test name="test1" >
+
+    <parameters name="lastName" value="Popescu" /> 
+
+    <classes>
+       <class name="TestNGTests" />
+    </classes>
+  </test>
+
+</suite>
